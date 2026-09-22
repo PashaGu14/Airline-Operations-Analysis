@@ -188,13 +188,11 @@ This project demonstrates several practical analytics skills:
 # Repository Structure
 
 ```
-airline-performance-analysis
+Airline-Operations-Analysis
 │
-├── airline_analysis.ipynb
-├── README.md
-├── data/
-│   └── airline_database_files
-└── visualizations/
+├── Airline Case Study.ipynb
+├── airline_industry.db.zip
+└── README.md
 ```
 
 ---
@@ -210,13 +208,14 @@ This analysis demonstrates how relational databases and Python analytics tools c
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repo-url>
-cd airline-performance-analysis
-pip install pandas seaborn jupyter
+git clone https://github.com/PashaGu14/Airline-Operations-Analysis.git
+cd Airline-Operations-Analysis
+pip install pandas seaborn matplotlib jupyter
+unzip airline_industry.db.zip
 jupyter notebook
 ```
 
-Open the notebook and run the analysis cells sequentially.
+Open `Airline Case Study.ipynb` and run the analysis cells sequentially.
 
 ---
 
